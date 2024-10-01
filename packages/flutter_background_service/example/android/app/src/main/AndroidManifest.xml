@@ -5,7 +5,8 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
-    <uses-sdk tools:overrideLibrary="androidx.window"/>
+    <uses-sdk android:targetSdkVersion="34" android:minSdkVersion="24"
+        tools:overrideLibrary="androidx.window"/>
 
    <application
         android:label="example"
